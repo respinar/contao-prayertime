@@ -14,8 +14,8 @@
 	],
 	"require": {
 		"php": ">=5.3.2",
-		"contao/code": "dev-master",
-		"respinar/PersianDate": "dev-master"
+		"contao/code": ">=3.0.0",
+		"respinar/PersianDate": "0.1.0"
 	},
 	"extra": {
         	"contao": {
