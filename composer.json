@@ -2,6 +2,9 @@
 	"name": "respinar/prayertime",
 	"type": "project",
 	"description": "Prayer times",
+	"keywords":["contao", "prayertime"],
+    	"type": "contao-module",
+    	"homepage":"https://github.com/respinar/prayertime/",
 	"license": "LGPL-3.0+",
 	"authors": [
 		{
@@ -13,5 +16,12 @@
 		"php": ">=5.3.2",
 		"contao/code": "dev-master",
 		"respinar/PersianDate": "dev-master"
-	}
+	},
+	"extra": {
+        	"contao": {
+            		"sources": {
+                		"": "system/modules/prayertime"
+            		}
+        }
+    }
 }
