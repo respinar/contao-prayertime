@@ -14,7 +14,7 @@
 	],
 	"require": {
 		"php": ">=5.3.2",
-		"contao/code": ">=3.0.0",
+		"contao/code": ">=3.2.0",
 		"respinar/PersianDate": ">=0.1.0"
 	},
 	"extra": {
