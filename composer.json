@@ -1,7 +1,7 @@
 {
 	"name": "respinar/prayertime",
 	"type": "project",
-	"description": "Prayer times",
+	"description": "Prayer times Module for Contao",
 	"keywords":["contao", "prayertime"],
     	"type": "contao-module",
     	"homepage":"https://github.com/respinar/prayertime/",
@@ -9,14 +9,23 @@
 	"authors": [
 		{
 			"name": "Hamid Abbaszadeh",
-			"homepage": "http://respinar.com/"
+			"email": "info@respinar.com",
+			"homepage": "http://respinar.com/",
+			"role": "developer"
+			
 		}
 	],
+	"support":{
+        	"issues":"https://github.com/respinar/prayertime/issues"
+    	},
 	"require": {
 		"php": ">=5.3.2",
 		"contao/core": ">=3.2.0",
 		"respinar/persiandate": ">=0.1.0"
 	},
+	"replace": {
+        	"contao-legacy/prayertime": "*"
+    	},
 	"extra": {
         	"contao": {
             		"sources": {
