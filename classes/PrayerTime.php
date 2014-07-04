@@ -29,7 +29,7 @@ namespace prayertime;
 
 class PrayerTime
 {
-	    //------------------------ Constants --------------------------
+    //------------------------ Constants --------------------------
 
 
     // Calculation Methods
