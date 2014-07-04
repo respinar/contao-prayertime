@@ -29,5 +29,8 @@ $GLOBALS['TL_LANG']['tl_module']['city_legend']    = 'City';
 $GLOBALS['TL_LANG']['tl_module']['methods_legend'] = 'Methods';
 $GLOBALS['TL_LANG']['tl_module']['options_legend'] = 'Options';
 $GLOBALS['TL_LANG']['tl_module']['prayer_legend']  = 'Prayer times';
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1b1a2655b795b18b79badd61360bf0adb7920995

@@ -5,4 +5,22 @@
     <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
   <?php endif; ?>
 
+<<<<<<< HEAD
+=======
+  <div class="info">
+	<div class="time" id="clock"></div>
+	<div class="city"><?php echo $this->pt_city; ?></div>
+	<div class="date"><?php echo $GLOBALS['TL_LANG']['MSC'][$this->day]; ?> <?php echo $this->date; ?></div>
+  </div>
+  <ul class="times">
+  <?php foreach($this->times as $time) { ?>
+
+	<li class="<?php echo $time['class']; ?>">
+		<div class="prayer"><?php echo $time[name]; ?></div><div class="time"><?php echo $time[time]; ?></div>
+	</li>
+
+  <?php } ?>
+  </ul>
+
+>>>>>>> 1b1a2655b795b18b79badd61360bf0adb7920995
 </div>
