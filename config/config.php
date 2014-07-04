@@ -17,7 +17,6 @@
 $GLOBALS['FE_MOD']['miscellaneous']['prayertime']   = 'ModulePrayerTime';
 
 
-
 /**
  * BACK END MODULES
  *
@@ -270,5 +269,3 @@ $GLOBALS['FE_MOD']['miscellaneous']['prayertime']   = 'ModulePrayerTime';
  * When rebuilding the search index URLs, Contao needs to know about these
  * keywords so it can handle them properly.
  */
-
-

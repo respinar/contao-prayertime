@@ -85,10 +85,8 @@ class ModulePrayerTime extends \Module
 
 		$currenttime = date('H:i');
 		$date    = time();
-<<<<<<< HEAD
-=======
+
 		$tomarrow = $today + 24*60*60;
->>>>>>> 1b1a2655b795b18b79badd61360bf0adb7920995
 
 		$times = $objPrayerTime->getPrayerTimes($date, $this->pt_latitude, $this->pt_longitude, $this->pt_timezone,deserialize($this->pt_prayertime));
 		$day   = 'today';
