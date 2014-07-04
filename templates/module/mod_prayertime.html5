@@ -1,0 +1,23 @@
+
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+
+  <?php if ($this->headline): ?>
+    <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+  <?php endif; ?>
+
+  <div class="info">
+	<div class="time" id="clock"></div>
+	<div class="city"><?php echo $this->pt_city; ?></div>
+	<div class="date"><?php echo $GLOBALS['TL_LANG']['MSC'][$this->day]; ?> <?php echo $this->date; ?></div>
+  </div>
+  <ul class="times">
+  <?php foreach($this->times as $time) { ?>
+
+	<li class="<?php echo $time['class']; ?>">
+		<div class="prayer"><?php echo $time[name]; ?></div><div class="time"><?php echo $time[time]; ?></div>
+	</li>
+
+  <?php } ?>
+  </ul>
+
+</div>
