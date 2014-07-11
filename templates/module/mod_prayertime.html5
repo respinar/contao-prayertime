@@ -6,7 +6,6 @@
   <?php endif; ?>
 
   <div class="info">
-	<div class="time" id="clock"></div>
 	<div class="city"><?php echo $this->pt_city; ?></div>
 	<div class="date"><?php echo $GLOBALS['TL_LANG']['MSC'][$this->day]; ?> <?php echo $this->date; ?></div>
   </div>
