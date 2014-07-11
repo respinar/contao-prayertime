@@ -7,7 +7,7 @@
 
   <div class="info">
 	<div class="city"><?php echo $this->pt_city; ?></div>
-	<div class="date"><?php echo $GLOBALS['TL_LANG']['MSC'][$this->day]; ?> <?php echo $this->date; ?></div>
+	<div class="date"><?php echo $this->date; ?></div>
   </div>
   <ul class="times">
   <?php foreach($this->times as $time) { ?>
