@@ -113,21 +113,12 @@ class ModulePrayerTime extends \Module
 			else
 				$class="upcoming";
 
-			if ($this->pt_DateType == 'Jalali')
-			{
-				$abc = \PersianDate::date($this->pt_TimeFormat,strtotime($value));
-			} else {
-				$abc = \Date::parse($this->pt_TimeFormat,strtotime($value));
-			}
+			$abc = \Date::parse($this->pt_TimeFormat,strtotime($value));
+			
 			$result[] = array('name'=>$GLOBALS['TL_LANG']['MSC'][$key],'time'=>$abc,'class'=>$key.' '.$class);
 		}
 
-		if ($this->pt_DateType == 'Jalali')
-		{
-			$this->Template->date = \PersianDate::date($this->pt_DateFormat,$date);
-		} else {
-			$this->Template->date = \Date::parse($this->pt_DateFormat,$date);
-		}
+		$this->Template->date = \Date::parse($this->pt_DateFormat,$date);
 
 		$this->Template->time  = $currenttime;
 		$this->Template->day   = $day;

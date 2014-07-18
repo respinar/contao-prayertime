@@ -21,7 +21,7 @@ $GLOBALS['TL_LANG']['tl_module']['pt_HighLatsMethod'] = array('Higher Latitudes 
 $GLOBALS['TL_LANG']['tl_module']['pt_TimeFormat']     = array('Time format','');
 $GLOBALS['TL_LANG']['tl_module']['pt_DateFormat']     = array('Date format','');
 $GLOBALS['TL_LANG']['tl_module']['pt_DateType']       = array('Date type','');
-$GLOBALS['TL_LANG']['tl_module']['pt_prayertime']      = array('Prayer','');
+$GLOBALS['TL_LANG']['tl_module']['pt_prayertime'] = array('Prayer','');
 
 
 

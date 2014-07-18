@@ -15,7 +15,7 @@ $GLOBALS['TL_DCA']['tl_module']['palettes']['prayertime']   = '{title_legend},na
                                                                {city_legend},pt_city,pt_timezone,pt_latitude,pt_longitude;
                                                                {methods_legend},pt_CalcMethod,pt_AsrMethod,pt_HighLatsMethod;
                                                                {prayer_legend},pt_prayertime;
-                                                               {options_legend},pt_DateType,pt_TimeFormat,pt_DateFormat;
+                                                               {options_legend},pt_TimeFormat,pt_DateFormat;
                                                                {protected_legend:hide},protected;
                                                                {expert_legend:hide},guests,cssID,space';
 
@@ -94,17 +94,6 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['pt_TimeFormat'] = array
 	'inputType'               => 'text',
 	'reference'               => &$GLOBALS['TL_LANG']['tl_module'],
 	'eval'                    => array('tl_class'=>'w50'),
-	'sql'                     => "varchar(16) NOT NULL default ''"
-);
-$GLOBALS['TL_DCA']['tl_module']['fields']['pt_DateType'] = array
-(
-	'label'                   => &$GLOBALS['TL_LANG']['tl_module']['pt_DateType'],
-	'default'                 => 'Jalali',
-	'exclude'                 => true,
-	'inputType'               => 'select',
-	'options'                 => array('Jalali', 'Julian'),
-	'reference'               => &$GLOBALS['TL_LANG']['tl_module'],
-	'eval'                    => array(),
 	'sql'                     => "varchar(16) NOT NULL default ''"
 );
 $GLOBALS['TL_DCA']['tl_module']['fields']['pt_DateFormat'] = array

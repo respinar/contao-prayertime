@@ -3,8 +3,8 @@
 	"type": "project",
 	"description": "Prayer times Module for Contao",
 	"keywords":["contao", "prayertime"],
-    	"type": "contao-module",
-    	"homepage":"https://github.com/respinar/prayertime/",
+	"type": "contao-module",
+	"homepage":"https://github.com/respinar/prayertime/",
 	"license": "LGPL-3.0+",
 	"authors": [
 		{
@@ -12,25 +12,29 @@
 			"email": "info@respinar.com",
 			"homepage": "http://respinar.com/",
 			"role": "developer"
-			
 		}
 	],
 	"support":{
-        	"issues":"https://github.com/respinar/prayertime/issues"
-    	},
+		"issues":"https://github.com/respinar/prayertime/issues"
+	},
 	"require": {
-		"php": ">=5.3.2",
-		"contao/core": ">=3.2.0",
-		"respinar/persiandate": ">=0.1.0"
+		"contao/core": ">=3.2,<4-dev",
+                "contao-community-alliance/composer-installer": "*"
 	},
 	"replace": {
-        	"contao-legacy/prayertime": "*"
-    	},
+		"contao-legacy/prayertime": "*"
+	},
 	"extra": {
-        	"contao": {
-            		"sources": {
-                		"": "system/modules/prayertime"
-            		}
-        }
-    }
+		"contao": {
+			"sources": {
+				"": "system/modules/prayertime"
+            },
+			"transifex": {
+				"project": "prayertime",
+				"prefix": "master-",
+				"languages_cto": "languages",
+				"languages_tx": ".tx"
+			}
+		}
+	}
 }
