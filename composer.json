@@ -3,7 +3,7 @@
     "description": "Prayer times Module for Contao",
     "keywords": ["contao", "prayertime"],
     "type": "contao-module",
-    "homepage": "https://github.com/respinar/contao-prayertime",
+    "homepage": "http://respinar.com",
     "license": "LGPL-3.0+",
     "authors": [
         {
