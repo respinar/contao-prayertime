@@ -56,7 +56,7 @@ class ModulePrayerTime extends \Module
 		if (TL_MODE == 'FE')
 		{
 
-            $GLOBALS['TL_CSS'][]        = 'system/modules/prayertime/assets/style.css';
+            $GLOBALS['TL_CSS'][]        = 'system/modules/prayertime/assets/prayertime.min.css|static';
         }
 
 
