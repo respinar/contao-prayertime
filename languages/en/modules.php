@@ -1,26 +1,15 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * praytimes Extension for Contao Open Source CMS
  *
- * Copyright (c) 2005-2014 Leo Feyer
- *
- * @package   prayertime
- * @author    Hamid Abbaszadeh
- * @license   GNU/LGPL
- * @copyright 2014
+ * @copyright  Copyright (c) 2014-2016, Respinar
+ * @author     respinar <info@respinar.com>
+ * @license    http://opensource.org/licenses/lgpl-3.0.html LGPL
+ * @link       https://github.com/respinar/contao-praytimes
  */
-
-
-/**
- * Back end modules
- */
-$GLOBALS['TL_LANG']['MOD'][''] = array('', '');
-
-
 
 /**
  * Front end modules
  */
-$GLOBALS['TL_LANG']['FMD'][''] = array('', '');
-$GLOBALS['TL_LANG']['FMD']['prayertime']=array('Prayer Time','');
+$GLOBALS['TL_LANG']['FMD']['praytimes']=array('Pray Times','');

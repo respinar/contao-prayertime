@@ -1,17 +1,15 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * praytimes Extension for Contao Open Source CMS
  *
- * Copyright (c) 2005-2014 Leo Feyer
- *
- * @package   prayertime
- * @author    Hamid Abbaszadeh
- * @license   GNU/LGPL
- * @copyright 2014
+ * @copyright  Copyright (c) 2014-2016, Respinar
+ * @author     respinar <info@respinar.com>
+ * @license    http://opensource.org/licenses/lgpl-3.0.html LGPL
+ * @link       https://github.com/respinar/contao-praytimes
  */
 
-$GLOBALS['TL_LANG']['tl_module']['pt_city']           = array('City name','');
+$GLOBALS['TL_LANG']['tl_module']['pt_city']           = array('City','Please enter city name.');
 $GLOBALS['TL_LANG']['tl_module']['pt_timezone']       = array('Time zone','');
 $GLOBALS['TL_LANG']['tl_module']['pt_latitude']       = array('Latitude','');
 $GLOBALS['TL_LANG']['tl_module']['pt_longitude']      = array('Longitude','');
@@ -21,11 +19,11 @@ $GLOBALS['TL_LANG']['tl_module']['pt_HighLatsMethod'] = array('Higher Latitudes 
 $GLOBALS['TL_LANG']['tl_module']['pt_TimeFormat']     = array('Time format','');
 $GLOBALS['TL_LANG']['tl_module']['pt_DateFormat']     = array('Date format','');
 $GLOBALS['TL_LANG']['tl_module']['pt_DateType']       = array('Date type','');
-$GLOBALS['TL_LANG']['tl_module']['pt_prayertime'] = array('Prayer','');
+$GLOBALS['TL_LANG']['tl_module']['pt_praytimes']      = array('Pray Times','');
 
 
 
-$GLOBALS['TL_LANG']['tl_module']['city_legend']    = 'City';
-$GLOBALS['TL_LANG']['tl_module']['methods_legend'] = 'Methods';
-$GLOBALS['TL_LANG']['tl_module']['options_legend'] = 'Options';
-$GLOBALS['TL_LANG']['tl_module']['prayer_legend']  = 'Prayer times';
+$GLOBALS['TL_LANG']['tl_module']['city_legend']     = 'City';
+$GLOBALS['TL_LANG']['tl_module']['methods_legend']  = 'Methods';
+$GLOBALS['TL_LANG']['tl_module']['options_legend']  = 'Options';
+$GLOBALS['TL_LANG']['tl_module']['praytime_legend'] = 'Pray times';

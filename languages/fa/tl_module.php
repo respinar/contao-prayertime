@@ -4,7 +4,7 @@
  * or to help to maintain an existing one, please register at transifex.com.
  *
  * @link http://help.transifex.com/intro/translating.html
- * @link https://www.transifex.com/projects/p/contao-prayertime/language/fa/
+ * @link https://www.transifex.com/projects/p/contao-praytimes/language/fa/
  *
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
@@ -25,6 +25,6 @@ $GLOBALS['TL_LANG']['tl_module']['pt_TimeFormat']['0']     = 'قالب زمان'
 $GLOBALS['TL_LANG']['tl_module']['pt_city']['0']           = 'نام شهر';
 $GLOBALS['TL_LANG']['tl_module']['pt_latitude']['0']       = 'عرض جغرافیایی';
 $GLOBALS['TL_LANG']['tl_module']['pt_longitude']['0']      = 'طول جغرافیایی';
-$GLOBALS['TL_LANG']['tl_module']['pt_prayertime']['0']     = 'اوقات';
+$GLOBALS['TL_LANG']['tl_module']['pt_praytimes']['0']      = 'اوقات';
 $GLOBALS['TL_LANG']['tl_module']['pt_timezone']['0']       = 'منطقه زمانی';
 
