@@ -1,42 +1,45 @@
 <?php
 
+
 /**
- * Contao Open Source CMS
+ * PrayTimes Extension for Contao Open Source CMS
  *
- * Copyright (c) 2005-2014 Leo Feyer
- *
- * @package Prayertime
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @copyright  Copyright (c) 2014-2016, Respinar
+ * @author     respinar <info@respinar.com>
+ * @license    http://opensource.org/licenses/lgpl-3.0.html LGPL
+ * @link       https://github.com/respinar/contao-praytimes
  */
 
 
+
 /**
- * Register the namespaces
+* Register the namespaces
  */
 ClassLoader::addNamespaces(array
 (
-	'prayertime',
+	'Respinar/PrayTimes',
 ));
 
 
+
 /**
- * Register the classes
+* Register the classes
  */
 ClassLoader::addClasses(array
 (
 	// Classes
-	'prayertime\PrayerTime'       => 'system/modules/prayertime/classes/PrayerTime.php',
+	'Respinar\PrayTimes\PrayTimes'       => 'system/modules/praytimes/library/Respinar/PrayTimes/PrayTimes.php',
 
-	// Modules
-	'prayertime\ModulePrayerTime' => 'system/modules/prayertime/modules/ModulePrayerTime.php',
+// Modules
+	'Respinar\PrayTimes\ModulePrayTimes'  => 'system/modules/praytimes/library/Respinar/PrayTimes/FrontendModule/ModulePrayTimes.php',
 ));
 
 
+
 /**
- * Register the templates
+* Register the templates
  */
 TemplateLoader::addFiles(array
 (
-	'mod_prayertime' => 'system/modules/prayertime/templates/module',
+	'mod_praytimes' => 'system/modules/praytimes/templates/module',
 ));
