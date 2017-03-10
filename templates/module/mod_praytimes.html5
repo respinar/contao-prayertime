@@ -1,23 +1,19 @@
-<!-- indexer::stop -->
-<div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?> style="<?= $this->style; ?>"<?php endif; ?>>
+<?php $this->extend('block_unsearchable'); ?>
 
-  <?php if ($this->headline): ?>
-    <<?= $this->hl; ?>><?= $this->headline; ?></<?= $this->hl; ?>>
-  <?php endif; ?>
+<?php $this->block('content'); ?>
 
   <div class="info">
-	<div class="city"><?= $this->pt_city; ?></div>
-	<div class="date"><?= $this->date; ?></div>
+	  <span class="city"><?= $this->pt_city; ?></span>
+	  <span class="date"><?= $this->date; ?></span>
   </div>
   <ul class="times">
-  <?php foreach($this->times as $time) { ?>
+  <?php foreach($this->times as $time): ?>
 
-	<li class="<?= $time['class']; ?>">
-		<div class="prayer"><?= $time[name]; ?></div><div class="time"><?= $time[time]; ?></div>
-	</li>
+	  <li class="<?= $time['class']; ?>">
+		  <span class="prayer"><?= $time[name]; ?></span><span class="time"><?= $time[time]; ?></span>
+	  </li>
 
-  <?php } ?>
+  <?php endforeach; ?>
   </ul>
 
-</div>
-<!-- indexer::continue -->
+<?php $this->endblock(); ?>
