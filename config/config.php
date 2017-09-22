@@ -12,4 +12,4 @@
 /**
  * Front end modules
  */
-$GLOBALS['FE_MOD']['miscellaneous']['praytimes']   = 'Respinar\PrayTimes\ModulePrayTimes';
+$GLOBALS['FE_MOD']['miscellaneous']['praytimes']   = 'Respinar\PrayTimes\Frontend\Module\ModulePrayTimes';
