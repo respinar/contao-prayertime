@@ -13,8 +13,11 @@
 /**
  * Namespace
  */
-namespace Respinar\PrayTimes;
+namespace Respinar\PrayTimes\Frontend\Module;
+
 use DateTime,DateTimeZone;
+use Respinar\PrayTimes;
+
 
 
 /**
