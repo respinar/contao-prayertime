@@ -11,29 +11,12 @@
  */
 
 
-
 /**
-* Register the namespaces
+ * Register PSR-0 namespaces
  */
-ClassLoader::addNamespaces(array
-(
-	'Respinar/PrayTimes',
-));
-
-
-
-/**
-* Register the classes
- */
-ClassLoader::addClasses(array
-(
-	// Classes
-	'Respinar\PrayTimes\PrayTimes'       => 'system/modules/praytimes/library/Respinar/PrayTimes/PrayTimes.php',
-
-// Modules
-	'Respinar\PrayTimes\ModulePrayTimes'  => 'system/modules/praytimes/library/Respinar/PrayTimes/FrontendModule/ModulePrayTimes.php',
-));
-
+ if (class_exists('NamespaceClassLoader')) {
+    NamespaceClassLoader::add('Respinar\PrayTimes', 'system/modules/praytimes/library');
+}
 
 
 /**
