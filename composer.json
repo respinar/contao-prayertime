@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Respinar\\Praytimes\\": "library/"
+            "Respinar\\Praytimes\\": "src/library/"
         }
     },
     "extra": {
         "contao": {
             "sources": {
-                "": "system/modules/praytimes"
+                "src": "system/modules/praytimes"
             },
             "transifex": {
                 "project": "contao-praytimes",
