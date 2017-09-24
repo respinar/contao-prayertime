@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Respinar\\Praytimes\\": "src/library/"
+            "Respinar\\PrayTimes\\": "src/library/"
         }
     },
     "extra": {
