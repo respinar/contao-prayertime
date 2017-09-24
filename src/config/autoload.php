@@ -12,14 +12,6 @@
 
 
 /**
- * Register PSR-0 namespaces
- */
- if (class_exists('NamespaceClassLoader')) {
-    NamespaceClassLoader::add('Respinar\PrayTimes', 'system/modules/praytimes/library');
-}
-
-
-/**
 * Register the templates
  */
 TemplateLoader::addFiles(array
